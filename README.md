@@ -29,13 +29,18 @@ con
 in Desktop/scripts/omxsyncstart.sh
 
 - slave:
-> sleep 60
-> omxplayer-sync -lu Desktop/video/video.mp4
+
+	sleep 60
+	omxplayer-sync -lu Desktop/video/video.mp4
+
 
 - master:
-> sleep 30
-> omxplayer-sync -mu Desktop/video/video.mp4
+
+	sleep 30
+	omxplayer-sync -mu Desktop/video/video.mp4
+
 
 - indipendente:
-> sleep 60
-> omxplayer-sync -u Desktop/video/video.mp4
+
+	sleep 60
+	omxplayer-sync -u Desktop/video/video.mp4
