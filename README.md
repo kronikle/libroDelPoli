@@ -13,7 +13,7 @@ edit /etc/rc.local ( rimuovi commenti a questa riga)
 	sudo -H -u pi -s -- bash "/home/pi/Desktop/scripts/omxsyncstart.sh" &
 
 
-### Per cambiare il video di riferimento
+### Per cambiare il video di riferimento e riempire lo schermo
 
 
 - cambiare questa linea
@@ -22,7 +22,7 @@ edit /etc/rc.local ( rimuovi commenti a questa riga)
 
 con
 
->	  omxplayer-sync -mu Desktop/video/video.mp4
+>	  omxplayer-sync -mu --aspect=fill Desktop/video/video.mp4
 
 
 ### Slave / Master
