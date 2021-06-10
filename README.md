@@ -3,6 +3,7 @@
 - [x] Introduzione Processing
 - [x] Introduzione Linux
 - [x] Installazione Raspberry
+- [x] Introduzione Unity / AR Foundation
 
 ## Istruzioni
 
