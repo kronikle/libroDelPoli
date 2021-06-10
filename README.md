@@ -22,7 +22,7 @@ edit /etc/rc.local ( rimuovi commenti a questa riga)
 
 con
 
->	  omxplayer-sync -mu --aspect=fill Desktop/video/video.mp4
+>	  omxplayer-sync -mu --aspect=fill /home/pi/Desktop/video/video.mp4
 
 
 ### Slave / Master
